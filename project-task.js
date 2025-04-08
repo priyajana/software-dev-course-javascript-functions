@@ -26,7 +26,7 @@ This activity reinforces:
 5️⃣ Test the refactored script to ensure it produces the same output as the original.
 
 ---
-*/
+/*
 
 // ============================================
 // ❌ Original Code (Before Refactoring)
@@ -51,7 +51,7 @@ let names = ["Alice", "Bob", "Charlie"];
 console.log("Names in the list:");
 for (let i = 0; i < names.length; i++) {
     console.log(names[i]);
-}
+}*/
 
 /*
 ===========================================
@@ -72,3 +72,58 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+// Script 1 - Greeting multiple users
+
+
+function greetUsers(names)
+{
+   for (user of names)
+      {
+         console.log(`Welcome, ${user}!`);
+      }
+   
+}
+
+
+// Script 2 - Sum calculation
+function calculateSum(num1,num2)
+{
+   
+   let sum = num1 + num2;
+   console.log("The sum of 5 and 10 is " + sum);
+}
+
+
+// Script 3 - Product calculation
+function calculateProduct(num1,num2)
+{
+   let product = num1 * num2;
+   console.log("The product of 5 and 10 is " + product);
+}
+
+
+// Script 4 - Print names from a list
+
+
+
+function printNames(namesArr)
+{
+   
+   console.log("Names in the list:");
+   for (let i = 0; i < namesArr.length; i++) {
+    console.log(namesArr[i]);
+   }
+}
+
+let names = ["Alice", "Bob", "Charlie"];
+let num1 = 5, num2 = 10;
+greetUsers(names);
+calculateSum(num1,num2);
+calculateProduct(num1,num2);
+printNames(names);
+
+
+
+
+
