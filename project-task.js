@@ -89,9 +89,8 @@ function greetUsers(names)
 // Script 2 - Sum calculation
 function calculateSum(num1,num2)
 {
-   
    let sum = num1 + num2;
-   console.log("The sum of 5 and 10 is " + sum);
+   console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 }
 
 
@@ -99,7 +98,7 @@ function calculateSum(num1,num2)
 function calculateProduct(num1,num2)
 {
    let product = num1 * num2;
-   console.log("The product of 5 and 10 is " + product);
+   console.log(`The product of ${num1} and ${num2} is ${product}`);
 }
 
 
