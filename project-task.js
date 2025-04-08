@@ -104,9 +104,6 @@ function calculateProduct(num1,num2)
 
 
 // Script 4 - Print names from a list
-
-
-
 function printNames(namesArr)
 {
    
